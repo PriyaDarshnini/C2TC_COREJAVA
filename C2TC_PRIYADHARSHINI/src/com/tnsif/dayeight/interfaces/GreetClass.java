@@ -6,3 +6,4 @@ package com.tnsif.dayeight.interfaces;
 		public String greet() {		
 			return "Welcome to the world of Java";
 		}
+	}

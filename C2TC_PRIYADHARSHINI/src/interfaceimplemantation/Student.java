@@ -1,6 +1,6 @@
 package interfaceimplemantation;
 
-public class Student {
+public class Student implements BeACoder {
 	private int sid;
 	private String sname;
 	

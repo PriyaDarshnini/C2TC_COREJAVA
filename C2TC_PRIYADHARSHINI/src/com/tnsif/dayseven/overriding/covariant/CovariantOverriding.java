@@ -1,6 +1,6 @@
 package com.tnsif.dayseven.overriding.covariant;
-
-public class Color {
+class Color {
+	// method getcolor returns an object of type color
 	protected Color getColor() {
 		Color s = new Color();
 		return s;
@@ -16,7 +16,7 @@ class Red extends Color {
 	}
 }
 
-	public class CovariantOverriding {
+public class CovariantOverriding {
 	public static void main(String[] args) {
 		Color c1 = new Color();
 		Color c2 = c1.getColor();
@@ -27,3 +27,4 @@ class Red extends Color {
 		System.out.println(r2);
 	}
 }
+

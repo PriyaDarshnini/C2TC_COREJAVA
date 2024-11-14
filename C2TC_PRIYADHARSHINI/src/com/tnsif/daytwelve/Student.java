@@ -1,5 +1,5 @@
 package com.tnsif.daytwelve;
-
+import java.util.Arrays;
 public class Student {
 	private int rollNo;
 	private String name;
@@ -55,5 +55,4 @@ public class Student {
 				+ noOfSubjects + "Percentage : "+per+" ]";
 	}
 
-}
 }
