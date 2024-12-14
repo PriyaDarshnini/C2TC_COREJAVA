@@ -1,4 +1,4 @@
-package com.tnsif.daysix.staticblockmethod;
+package com.tnsif.daysix.staticvariable;
 
 public class EmployeeDemo {
 	public static void main(String[] args) {
